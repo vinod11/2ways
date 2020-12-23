@@ -1,5 +1,21 @@
+<style>
+   #snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+    background-image: url(https://res.cloudinary.com/dfwfdqyf7/image/upload/v1608696998/2ways/QAsia.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+</style>
 <!-- HOME : STARTS -->
+<div id="snow"></div>
 <section id="home" data-stellar-background-ratio="1.7" data-stellar-vertical-offset="0" data-stellar-horizontal-offset="0">
+<div id="snow"></div>
          <section id="metro-panel" class="container py-5 icono-color fx fx-bounceIn">
             <!-- stripe:starts  -->
             <div class="stripe clearfix">
@@ -155,3 +171,69 @@
          </section>
       </section>
       <!-- HOME : ENDS -->
+      <script>
+         document.addEventListener('DOMContentLoaded', function(){
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+    script.onload = function(){
+        particlesJS("snow", {
+            "particles": {
+                "number": {
+                    "value": 200,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "opacity": {
+                    "value": 0.7,
+                    "random": false,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 5,
+                    "direction": "bottom",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": true,
+                        "rotateX": 300,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    },
+                    "onclick": {
+                        "enable": false
+                    },
+                    "resize": false
+                }
+            },
+            "retina_detect": true
+        });
+    }
+    document.head.append(script);
+});
+      </script>
