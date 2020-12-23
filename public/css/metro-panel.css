@@ -142,7 +142,7 @@ font-weight: bold;
 /*HOME*/
 
 #home {
-    background: url('https://res.cloudinary.com/dfwfdqyf7/image/upload/v1608606381/2ways/bg.jpg') center center repeat;
+    background: url('https://res.cloudinary.com/dfwfdqyf7/image/upload/v1608703361/2ways/bg.png') center center repeat;
     background-size: cover;
     min-height: 500px;
     padding-top: 0px;
@@ -151,7 +151,7 @@ font-weight: bold;
 
 
 #welcome{
-   background: url('https://res.cloudinary.com/dfwfdqyf7/image/upload/v1608606381/2ways/bg.jpg') center center repeat;
+   background: url('https://res.cloudinary.com/dfwfdqyf7/image/upload/v1608703361/2ways/bg.png') center center repeat;
     background-size: cover;
 }
 #welcome h1{

@@ -429,7 +429,7 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-xs-12 text-right wow fadeInRight" data-wow-delay="0.3s">
-            </br><a rel="nofollow" href="https://rebrand.ly/fusion-ud" class="btn btn-common">Purchase Now</a>
+            </br><a rel="nofollow" href="#" class="btn btn-common">Purchase Now</a>
           </div>
         </div>
       </div>

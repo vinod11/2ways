@@ -6,16 +6,14 @@
     right: 0;
     bottom: 0;
     pointer-events: none;
-    z-index: 1000;
+    z-index: 100;
     background-image: url(https://res.cloudinary.com/dfwfdqyf7/image/upload/v1608696998/2ways/QAsia.gif);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left bottom;
 }
 </style>
 <!-- HOME : STARTS -->
-<div id="snow"></div>
 <section id="home" data-stellar-background-ratio="1.7" data-stellar-vertical-offset="0" data-stellar-horizontal-offset="0">
-<div id="snow"></div>
          <section id="metro-panel" class="container py-5 icono-color fx fx-bounceIn">
             <!-- stripe:starts  -->
             <div class="stripe clearfix">
@@ -169,6 +167,7 @@
             </div>
             <!-- stripe :ends-->
          </section>
+         <div id="snow"></div>
       </section>
       <!-- HOME : ENDS -->
       <script>
@@ -179,10 +178,10 @@
         particlesJS("snow", {
             "particles": {
                 "number": {
-                    "value": 200,
+                    "value": 700,
                     "density": {
                         "enable": true,
-                        "value_area": 800
+                        "value_area": 1000
                     }
                 },
                 "color": {
@@ -207,7 +206,7 @@
                 },
                 "move": {
                     "enable": true,
-                    "speed": 5,
+                    "speed": 4,
                     "direction": "bottom",
                     "random": true,
                     "straight": false,
